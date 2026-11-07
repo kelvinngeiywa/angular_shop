@@ -1,0 +1,127 @@
+<div>
+  <navbar></navbar>
+
+  <main class="container">
+    <section class="gallery-section">
+      <h2 class="section-title">Trending Categories</h2>
+        <div class="image-grid">
+            @for (product of products.products; track product.id) {
+            <div class="card">
+                <div class="img-wrapper">
+                    <img [src]="product.imgurl" alt="Shoes Collection">
+                </div>
+                <div class="card-info">
+                    <h3>{{ product.name }}</h3>
+                    <a href="#" class="btn-link">Explore</a>
+                </div>
+            </div>
+            }
+            
+            
+        </div>
+        
+
+      <!-- <div class="image-grid">
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/NLk1wtI.jpeg" alt="Shoes Collection">
+          </div>
+          <div class="card-info">
+            <h3>Puma roma</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div> -->
+
+        <!-- <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/eK0Usx4.jpeg" alt="Sneakers Collection">
+          </div>
+          <div class="card-info">
+            <h3>Oval yellow</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/ETnViPs.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Terrex black</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/Xjqux4g.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Terrex brown</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/9eOhPYa.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Oval black</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/X0b55ql.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Naked Wolfe</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/inWnFu2.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Oval brown</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/aF5CZwy.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Naked wolfe black</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/bpxzU1l.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Puma roma red</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="https://i.imgur.com/JHkOfsF.jpeg" alt="New Arrivals">
+          </div>
+          <div class="card-info">
+            <h3>Rubber black white</h3>
+            <a href="#" class="btn-link">Explore</a>
+          </div>
+        </div> -->
+
+    </section>
+  </main>
+</div>

@@ -1,0 +1,34 @@
+*{
+    color: #fff;
+}
+.page{
+    width: 100%;
+    background-color: #121212;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  max-width: 1200px;  /* Controls the maximum width of your content */
+  margin: 0 auto;     /* Automatically centers the container and creates equal left/right gaps */
+  padding-left: 2rem;   /* Ensures content doesn't touch the screen edges on smaller devices */
+  padding-right: 2rem;
+}
+
+.primeHub{
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
